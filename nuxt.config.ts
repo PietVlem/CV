@@ -9,7 +9,7 @@ export default defineNuxtConfig({
   },
   content: {
     preview: {
-      api: 'https://www.pietvlem.com',
+      api: 'https://api.nuxt.studio'
     }
   }
 })
