@@ -9,7 +9,12 @@ export default defineNuxtConfig({
   },
   content: {
     preview: {
-      api: 'https://www.pietvlem.com'
+      api: 'https://www.pietvlem.com',
+      gitInfo: {
+        name: 'CV',
+        owner: 'PietVlem',
+        url: 'https://github.com/PietVlem/CV'
+      }
     }
   }
 })
