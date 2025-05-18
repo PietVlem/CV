@@ -7,4 +7,9 @@ export default defineNuxtConfig({
     mode: 'css',
     cssLayer: 'base'
   },
+  content: {
+    preview: {
+      api: 'https://www.pietvlem.com'
+    }
+  }
 })
