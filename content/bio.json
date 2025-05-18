@@ -1,11 +1,11 @@
 {
-    "name": "Pieter Vleminckx",
-    "bio": "Ik ben een front-end developer met een passie voor het creëren van gebruiksvriendelijke en visueel aantrekkelijke webapplicaties. Mijn expertise ligt in het ontwikkelen van op maat gemaakte oplossingen die voldoen aan de behoeften van zowel klanten als eindgebruikers. ", 
-    "meta": {
-        "profession": "Front-end developer",
-        "date Of Birth": "15-11-1994",
-        "education": "Bachelor Diploma",
-        "location": "Oost-vlaanderen, België"
-    },
-    "email": "pieter.vlem@gmail.com"
+  "name": "Pieter Vleminckx",
+  "bio": "Ik ben een front-end developer met een passie voor het creëren van gebruiksvriendelijke en visueel aantrekkelijke webapplicaties. Mijn expertise ligt in het ontwikkelen van op maat gemaakte oplossingen die voldoen aan de behoeften van zowel klanten als eindgebruikers. ",
+  "meta": {
+    "profession": "Front-end developer",
+    "date Of Birth": "15-11-1994",
+    "education": "Bachelor Diploma",
+    "location": "Oost-vlaanderen, België"
+  },
+  "email": "pieter.vlem@gmail.com"
 }
