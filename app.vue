@@ -1,10 +1,9 @@
 <script setup>
 import data from './data/experience.json';
 
-const { data: bio } = await useAsyncData('bio', () => {
-  return queryCollection('bio')
-    .first()
-})
+const { data: bio } = await useAsyncData('bio', () => 
+  queryCollection('bio').first()
+)
 </script>
 
 <template>

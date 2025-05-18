@@ -1,7 +1,7 @@
 <script setup>
 defineProps({
     data: {
-        type: Object,
+        type: Map,
         required: true
     }
 })
