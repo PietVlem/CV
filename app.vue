@@ -1,5 +1,10 @@
 <script setup>
 import data from './data/experience.json';
+
+const { data: bio } = await useAsyncData('bio', () => {
+  return queryCollection('bio')
+    .first()
+})
 </script>
 
 <template>
@@ -27,9 +32,9 @@ import data from './data/experience.json';
 
     <div class="grid grid-cols-3 gap-16">
       <div class="flex flex-col gap-8">
-        <span class="font-bold">Pieter Vleminckx</span>
-        <p class="text-gray-500 text-sm">Front-end developer with a wealth of experience and a great passion in building new products and improving customer experience of digital products.</p>
-        <AppDataTable />
+        <span class="font-bold">{{ bio.name }}</span>
+        <p class="text-gray-500 text-sm">{{ bio.bio }}</p>
+        <AppDataTable :data="bio.meta.body.meta"/>
         <a 
           href="mailto:pieter.vlem@gmail.com"
           class="block border-2 border-black font-bold w-full p-2 text-center uppercase text-xs hover:bg-black hover:text-white transition-colors duration-300 ease-in-out"
