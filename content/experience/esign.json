@@ -1,0 +1,13 @@
+{
+    "company": "Esign",
+    "role": "Front-end developer",
+    "start": "april 2018",
+    "end": "juni 2018",
+    "description": "Esign was mijn eerste echte werkervaring als web developer. Ik werkte daar als front-end developer en hield me vooral bezig met het aanpassen en aanvullen van bestaande websites, en het ontwikkelen van projecten vanaf slicing Photoshop- of Illustrator-ontwerp naar HTML, CSS en JavaScript tot integratie in Laravel of CodeIgniter.",
+    "responsibilities": [
+      "Bestaande websites aanpassen en aanvullen",
+      "Projecten ontwikkelen vanaf slicing Photoshop- of Illustrator-ontwerp naar HTML, CSS en JavaScript",
+      "Integratie in Laravel of CodeIgniter"
+    ],
+    "technologies": ["HTML", "CSS", "JavaScript", "Laravel", "CodeIgniter"]
+  }

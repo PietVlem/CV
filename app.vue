@@ -1,8 +1,10 @@
 <script setup>
-import data from './data/experience.json';
-
 const { data: bio } = await useAsyncData('bio', () => 
   queryCollection('bio').first()
+)
+
+const { data: experience } = await useAsyncData('experience', () => 
+  queryCollection('experience').all()
 )
 </script>
 
@@ -53,7 +55,7 @@ const { data: bio } = await useAsyncData('bio', () =>
         <div class="mb-20">
           <AppSubHeading title="Ervaring" />
           <AppExperienceRow 
-            v-for="experience in data"
+            v-for="experience in experience"
             class="border-b border-black border-opacity-10 last:border-b-0"
             :company="experience.company"
             :position="experience.role"
