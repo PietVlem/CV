@@ -6,7 +6,6 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@nuxt/icon',
     '@nuxt/content',
-    '@nuxthq/studio'
   ],
   icon: {
     mode: 'css',
