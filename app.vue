@@ -31,11 +31,11 @@ const { data: experience } = await useAsyncData('experience', () =>
       </div>
     </div>
 
-    <div class="grid grid-cols-3 gap-16">
+    <div v-if="bio" class="grid grid-cols-3 gap-16">
       <div class="flex flex-col gap-8">
         <span class="font-bold">{{ bio.name }}</span>
         <p class="text-gray-500 text-sm">{{ bio.bio }}</p>
-        <AppDataTable :data="bio.meta.body.meta"/>
+        <AppDataTable :data="bio?.meta?.body?.meta"/>
         <a 
           href="mailto:pieter.vlem@gmail.com"
           class="block border-2 border-black font-bold w-full p-2 text-center uppercase text-xs hover:bg-black hover:text-white transition-colors duration-300 ease-in-out"
