@@ -73,6 +73,7 @@ const { data } = await useAsyncData(route.path, () => {
             :endDate="experience.end"
             :description="experience.description"
             :technologies="['React', 'Angular', 'Vue.js']"
+            :projects="experience.projects"
           />
         </div>
       </div>

@@ -50,7 +50,7 @@ const showMoreInfo = () => {
         </div>
         <p class="text-gray-500 text-sm my-2">{{ description }}</p>
         <div>
-            <button @click="showMoreInfo()" class="inline-flex gap-2 align-center text-xs font-bold border border-black py-2 px-4 hover:bg-black hover:text-white transition-colors duration-300 ease-in-out">
+            <button @click="showMoreInfo" class="inline-flex gap-2 align-center text-xs font-bold border border-black py-2 px-4 hover:bg-black hover:text-white transition-colors duration-300 ease-in-out">
                 <Icon name="ph:book-open-bold" size="16"/>
                 <span>Lees meer</span>
             </button>
