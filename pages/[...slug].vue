@@ -1,11 +1,15 @@
 <script setup>
-const { data: bio } = await useAsyncData('bio', () => 
-  queryCollection('bio').first()
-)
+const route = useRoute()
 
-const { data: experience } = await useAsyncData('experience', () => 
-  queryCollection('experience').all()
-)
+const { data } = await useAsyncData(route.path, () => {
+    const stem = route.path === '/' 
+        ? 'pages/nl' 
+        : `pages${route.path}`
+
+    return queryCollection('pages')
+        .where('stem', '==', stem)
+        .first()
+})
 </script>
 
 <template>
@@ -31,11 +35,11 @@ const { data: experience } = await useAsyncData('experience', () =>
       </div>
     </div>
 
-    <div v-if="bio" class="grid grid-cols-3 gap-16">
+    <div v-if="data.bio" class="grid grid-cols-3 gap-16">
       <div class="flex flex-col gap-8">
-        <span class="font-bold">{{ bio.name }}</span>
-        <p class="text-gray-500 text-sm">{{ bio.bio }}</p>
-        <AppDataTable :data="bio?.meta?.body?.meta"/>
+        <span class="font-bold">{{ data?.bio?.name }}</span>
+        <p class="text-gray-500 text-sm">{{ data?.bio?.bio }}</p>
+        <AppDataTable :data="data?.bio?.meta"/>
         <a 
           href="mailto:pieter.vlem@gmail.com"
           class="block border-2 border-black font-bold w-full p-2 text-center uppercase text-xs hover:bg-black hover:text-white transition-colors duration-300 ease-in-out"
@@ -43,19 +47,22 @@ const { data: experience } = await useAsyncData('experience', () =>
       </div>
       <div class="col-span-2 flex flex-col gap-8">
         <div>
-          <AppSubHeading title="Opleidingen" />
+          <AppSubHeading :title="data?.educationTitle" />
           <AppEductionRow 
-            degree="Grafische en digitale media (batchlors degree) "
-            school="Artevelde Hogeschool"
-            :startYear="2015"
-            :endYear="2019"
-            description="I graduated with a Bachelor of Science in Computer Science from the University of Antwerp. During my studies, I gained a solid foundation in computer science principles, programming languages, and software development methodologies."
+            v-for="(education, index) in data?.education"
+            :key="`eduction-${index}`"
+            :degree="education.degree"
+            :school="education.institution"
+            :startYear="education.start"
+            :endYear="education.end"
+            :description="education.description"
           />
         </div>
         <div class="mb-20">
-          <AppSubHeading title="Ervaring" />
+          <AppSubHeading :title="data?.experienceTitle" />
           <AppExperienceRow 
-            v-for="experience in experience"
+            v-for="(experience, index) in data?.experience"
+            :key="`experience-${index}`"
             class="border-b border-black border-opacity-10 last:border-b-0"
             :company="experience.company"
             :position="experience.role"

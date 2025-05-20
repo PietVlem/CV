@@ -36,6 +36,12 @@ defineProps({
             </div>
             <span class="font-bold text-xs mt-[2px]">{{ startDate }} - {{ endDate }}</span>
         </div>
-        <p class="text-gray-500 text-sm mt-2">{{ description }}</p>
+        <p class="text-gray-500 text-sm my-2">{{ description }}</p>
+        <div>
+            <button class="inline-flex gap-2 align-center text-xs font-bold border border-black p-2 hover:bg-black hover:text-white transition-colors duration-300 ease-in-out">
+                <Icon name="ph:book-open-bold" size="16"/>
+                <span>Lees meer</span>
+            </button>
+        </div>
     </div>
 </template>
