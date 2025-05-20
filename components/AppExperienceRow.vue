@@ -1,5 +1,5 @@
 <script setup>
-defineProps({
+const props = defineProps({
     company: {
         type: String,
         required: true
@@ -23,8 +23,20 @@ defineProps({
     technologies: {
         type: Array,
         required: true
+    },
+    projects: {
+        type: Array,
+        default: () => []
     }
 })
+
+const openDrawer = ref(false)
+
+const showMoreInfo = () => {
+    props.projects.length === 0
+        ? console.log('No projects available')
+        : openDrawer.value = true
+}
 </script>
 
 <template>
@@ -38,10 +50,12 @@ defineProps({
         </div>
         <p class="text-gray-500 text-sm my-2">{{ description }}</p>
         <div>
-            <button class="inline-flex gap-2 align-center text-xs font-bold border border-black p-2 hover:bg-black hover:text-white transition-colors duration-300 ease-in-out">
+            <button @click="showMoreInfo()" class="inline-flex gap-2 align-center text-xs font-bold border border-black py-2 px-4 hover:bg-black hover:text-white transition-colors duration-300 ease-in-out">
                 <Icon name="ph:book-open-bold" size="16"/>
                 <span>Lees meer</span>
             </button>
         </div>
     </div>
+
+    <AppExperienceDrawer v-model="openDrawer"/>
 </template>

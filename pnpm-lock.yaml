@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@headlessui/vue':
+        specifier: ^1.7.23
+        version: 1.7.23(vue@3.5.14(typescript@5.8.3))
       '@nuxt/content':
         specifier: ^3.5.1
         version: 3.5.1(magicast@0.3.5)(typescript@5.8.3)
@@ -345,6 +348,12 @@ packages:
 
   '@fastify/busboy@3.1.1':
     resolution: {integrity: sha512-5DGmA8FTdB2XbDeEwc/5ZXBl6UbBAyBOOLlPuBnZ/N1SwdH9Ii+cOX3tBROlDgcTXxjOYnLMVoKk9+FXAw0CJw==}
+
+  '@headlessui/vue@1.7.23':
+    resolution: {integrity: sha512-JzdCNqurrtuu0YW6QaDtR2PIYCKPUWq28csDyMvN4zmGccmE7lz40Is6hc3LA4HFeCI7sekZ/PQMTNmn9I/4Wg==}
+    engines: {node: '>=10'}
+    peerDependencies:
+      vue: ^3.2.0
 
   '@iconify/collections@1.0.549':
     resolution: {integrity: sha512-H6BUYeDuKbOtVchwZveQGHlg5NE76TwPZVptpdhI+31CsNXYeNMLatW49B+FVI14gXocrd04/kdbM0X+EwL7dA==}
@@ -926,6 +935,14 @@ packages:
   '@sqlite.org/sqlite-wasm@3.49.1-build4':
     resolution: {integrity: sha512-TBbTTWhiI6v2CT7J1hij5shx+RGL4iICprVGYhO+LKv5Nbn3NeJPWCY8kMKL5vA6b33NeWkBk4dy6RFbNh3jBw==}
     hasBin: true
+
+  '@tanstack/virtual-core@3.13.9':
+    resolution: {integrity: sha512-3jztt0jpaoJO5TARe2WIHC1UQC3VMLAFUW5mmMo0yrkwtDB2AQP0+sh10BVUpWrnvHjSLvzFizydtEGLCJKFoQ==}
+
+  '@tanstack/vue-virtual@3.13.9':
+    resolution: {integrity: sha512-HsvHaOo+o52cVcPhomKDZ3CMpTF/B2qg+BhPHIQJwzn4VIqDyt/rRVqtIomG6jE83IFsE2vlr6cmx7h3dHA0SA==}
+    peerDependencies:
+      vue: ^2.7.0 || ^3.0.0
 
   '@trysound/sax@0.2.0':
     resolution: {integrity: sha512-L7z9BgrNEcYyUYtF+HaEfiS5ebkh9jXqbszz7pC0hRBPaatV0XjSD3+eHrpqFemQfgwiFF0QPIarnIihIDn7OA==}
@@ -4983,6 +5000,11 @@ snapshots:
 
   '@fastify/busboy@3.1.1': {}
 
+  '@headlessui/vue@1.7.23(vue@3.5.14(typescript@5.8.3))':
+    dependencies:
+      '@tanstack/vue-virtual': 3.13.9(vue@3.5.14(typescript@5.8.3))
+      vue: 3.5.14(typescript@5.8.3)
+
   '@iconify/collections@1.0.549':
     dependencies:
       '@iconify/types': 2.0.0
@@ -5846,6 +5868,13 @@ snapshots:
   '@speed-highlight/core@1.2.7': {}
 
   '@sqlite.org/sqlite-wasm@3.49.1-build4': {}
+
+  '@tanstack/virtual-core@3.13.9': {}
+
+  '@tanstack/vue-virtual@3.13.9(vue@3.5.14(typescript@5.8.3))':
+    dependencies:
+      '@tanstack/virtual-core': 3.13.9
+      vue: 3.5.14(typescript@5.8.3)
 
   '@trysound/sax@0.2.0': {}
 

@@ -3,12 +3,12 @@ const route = useRoute()
 
 const { data } = await useAsyncData(route.path, () => {
     const stem = route.path === '/' 
-        ? 'pages/nl' 
-        : `pages${route.path}`
+      ? 'pages/nl' 
+      : `pages${route.path}`
 
     return queryCollection('pages')
-        .where('stem', '==', stem)
-        .first()
+      .where('stem', '==', stem)
+      .first()
 })
 </script>
 
@@ -42,13 +42,16 @@ const { data } = await useAsyncData(route.path, () => {
         <AppDataTable :data="data?.bio?.meta"/>
         <a 
           href="mailto:pieter.vlem@gmail.com"
-          class="block border-2 border-black font-bold w-full p-2 text-center uppercase text-xs hover:bg-black hover:text-white transition-colors duration-300 ease-in-out"
-        >Send Message</a>
+          class="flex gap-2 items-center justify-center border-2 border-black font-bold w-full p-2 uppercase text-xs hover:bg-black hover:text-white transition-colors duration-300 ease-in-out"
+        >
+          <Icon name="ph:paper-plane-tilt-bold" size="18"/>
+          <span class="inline-block leading-none">Send Message</span>
+        </a>
       </div>
       <div class="col-span-2 flex flex-col gap-8">
         <div>
           <AppSubHeading :title="data?.educationTitle" />
-          <AppEductionRow 
+          <AppEductionRow
             v-for="(education, index) in data?.education"
             :key="`eduction-${index}`"
             :degree="education.degree"

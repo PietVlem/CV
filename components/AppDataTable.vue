@@ -1,7 +1,7 @@
 <script setup>
 defineProps({
     data: {
-        type: Map,
+        type: Object,
         required: true
     }
 })
@@ -11,7 +11,7 @@ defineProps({
     <div class="border-t-2 border-b-2 border-black">
         <div 
             v-for="[key, value] of Object.entries(data)"
-            :key="dataKey"
+            :key="key"
             class="flex justify-between items-center py-2 border-b-2 border-black last:border-b-0 font-bold text-xs uppercase"
         >
             <span>{{ key }}</span>
