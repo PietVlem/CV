@@ -121,14 +121,12 @@
           "role": "Front-end developer"
         },
         {
-          "company": "Appeel",
-          "name": "Progress",
+          "company": "Progress",
           "role": "Front-end developer",
           "description": "Ontwikkeling van het in-house project Progress bij Appeel.io."
         },
         {
-          "company": "Appeel",
-          "name": "Grafeio",
+          "company": "Grafeio",
           "role": "Lead Front-end developer",
           "description": "Leiding over het frontend team, ontwikkeling van dynamische componenten met Nuxt 3, integratie met CockroachDB en Prisma. Backend in Node.js."
         }

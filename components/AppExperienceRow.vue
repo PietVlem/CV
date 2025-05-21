@@ -57,5 +57,5 @@ const showMoreInfo = () => {
         </div>
     </div>
 
-    <AppExperienceDrawer v-model="openDrawer"/>
+    <AppExperienceDrawer v-model="openDrawer" :projects="projects"/>
 </template>
