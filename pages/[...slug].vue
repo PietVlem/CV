@@ -66,14 +66,7 @@ const { data } = await useAsyncData(route.path, () => {
           <AppExperienceRow 
             v-for="(experience, index) in data?.experience"
             :key="`experience-${index}`"
-            class="border-b border-black border-opacity-10 last:border-b-0"
-            :company="experience.company"
-            :position="experience.role"
-            :startDate="experience.start"
-            :endDate="experience.end"
-            :description="experience.description"
-            :technologies="['React', 'Angular', 'Vue.js']"
-            :projects="experience.projects"
+            :experience="experience"
           />
         </div>
       </div>

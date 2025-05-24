@@ -15,7 +15,7 @@
   "educationTitle": "Opleiding",
   "education": [
     {
-      "degree": "Grafische en digitale media (bachlors degree)",
+      "degree": "Grafische en digitale media (Bachelor Diploma)",
       "institution": "Artevelde hogeschool",
       "start": "2015",
       "end": "2019",
@@ -29,14 +29,7 @@
       "role": "It consultant",
       "start": "juli 2022",
       "end": "nu",
-      "description": "Consultant bij Appeel.io, bijdragen aan diverse projecten voor verschillende klanten.",
-      "responsibilities": [
-        "Samenwerken met een dynamisch team aan frontend functionaliteiten",
-        "Gebruik van JavaScript technologieën voor interactieve interfaces",
-        "SEO-vriendelijke en geoptimaliseerde webapplicaties",
-        "Code reviews en best practices",
-        "Probleemoplossing en troubleshooting"
-      ],
+      "description": "Bij Appeel.io werk ik al drie jaar als front-end developer en lead developer aan uiteenlopende projecten voor diverse klanten. Als consultant heb ik brede ervaring opgebouwd met de drie grote JavaScript-frameworks (Vue, React en Angular), en was ik steeds bereid om nieuwe technologieën en uitdagingen aan te gaan. Naast front-end heb ik ook ervaring opgedaan met back-end development in JavaScript. Mijn rol varieerde van uitvoerende ontwikkeling tot technische leiding binnen teams.",
       "technologies": [
         "JavaScript",
         "Nuxt",
@@ -47,42 +40,32 @@
         {
           "company": "Kayak",
           "role": "Front-end developer",
-          "description": "Revamp van de Kayak job agency website, met focus op slider animaties en gebruikerservaring.",
-          "responsibilities": [
-            "Creëren van slider animaties",
-            "Verbeteren van de gebruikerservaring"
-          ],
+          "description": "Binnen het Appeel-team werkte ik mee aan de ontwikkeling van de nieuwe website voor Kayak. Mijn focus lag op het creëren van vloeiende slideranimaties en het verbeteren van de algemene gebruikerservaring. Het project werd gerealiseerd in samenwerking met andere front-end developers en kreeg erkenning op awwwards.com voor zijn design en uitvoering.",
+          "about": "Voor het Kayak job agency werkte ik mee aan de herontwikkeling van hun website binnen het front-end team van Appeel. Ik sloot aan in de laatste fase van het project, met als hoofdverantwoordelijkheid het uitwerken van animaties — in het bijzonder de slideranimaties. Door deze animaties te implementeren, slaagde ik erin de gebruikerservaring aanzienlijk te verbeteren en de interactie op de site visueel aantrekkelijker te maken. Het resultaat was een moderne, dynamische website die Kayak hielp hun jobaanbod op een meer toegankelijke en overtuigende manier te presenteren. De kwaliteit en uitstraling van het eindproduct werden bekroond met een vermelding op awwwards.com, een platform dat uitmuntend webdesign erkent.",
           "technologies": [
             "Nuxt 3",
             "Tailwind CSS",
-            "Bullhorn"
+            "Bullhorn",
+            "GSAP"
           ]
         },
         {
           "company": "Konvert",
           "role": "Lead Front-end developer",
-          "description": "Webapplicatie voor jobzoekers, met contentbeheer via Storyblok CMS.",
-          "responsibilities": [
-            "Ontwikkelen van een gebruiksvriendelijke website",
-            "Koppelen van API's voor vacatures en gebruikersdata",
-            "Integratie van Storychief voor blogposts"
-          ],
+          "description": "k werd ingeschakeld om de bestaande front-endcode van Konvert te auditen, maar nam al snel een centrale rol op in het verder ontwikkelen en stabiliseren van het project. Wat initieel een korte opdracht zou zijn, groeide uit tot een intensieve vier maanden durende samenwerking waarin ik het project technisch heb geleid en tot een succesvol einde bracht.",
+          "about": "Het project bij Konvert betrof een uitgebreide update van hun website en online portaal. Aanvankelijk was het de bedoeling dat ik één maand zou meewerken om de bestaande code – geschreven door meerdere voorgangers – te evalueren. De technologieën waarmee gewerkt werd, waren onder andere Nuxt 2, Tailwind CSS en Storyblok als CMS, gekoppeld aan een intern ontwikkelde API. mijn aankomst was er nog één front-end developer actief op het project, maar het werd snel duidelijk dat de complexiteit van de codebase en de schaal van het project meer technische maturiteit vereisten. Na het doornemen van de code merkte ik dat er nog heel wat werk aan de winkel was. Ik nam daarom een coachende rol op en begeleidde de andere developer intensief om het project op koers te krijgen.Dankzij het vertrouwen van de klant kreeg ik de vrijheid om zelfstandig keuzes te maken en te focussen op vooruitgang. Uiteindelijk nam ik het project volledig op mij nadat de andere ontwikkelaar – door interne herschikkingen – werd weggenomen van het team. Vier maanden later was het project afgerond en kon deze dan uiteindelijk live gaan.",
           "technologies": [
             "Nuxt 2",
             "Tailwind CSS",
             "Storyblok CMS",
-            "Storychief",
-            "API"
+            "Storychief"
           ]
         },
         {
           "company": "Meteor",
           "role": "Front-end developer",
-          "description": "Lens-Online project: opzetten van de front-end voor webshop en POS applicatie met Bootstrap.",
-          "responsibilities": [
-            "Opzetten van de front-end voor webshop en POS",
-            "Visueel aantrekkelijke en gebruiksvriendelijke website creëren"
-          ],
+          "description": "Voor Meteor werkte ik enkele maanden als enige front-end developer aan de nieuwe webshop en het bestelportaal voor LensOnline. Ik legde de technische basis voor het volledige front-endluik van het project, waarop het verdere team kon voortbouwen. De focus lag op het creëren van een toegankelijke, visueel sterke en gebruiksvriendelijke interface.",
+          "about": "k had het genoegen om via Appeel als consultant samen te werken met Meteor op hun LensOnline-project, een platform voor de verkoop van contactlenzen en een bestelportaal voor opticiens. Het team bestond uit ongeveer tien mensen, waarbij ik de enige front-end developer was. Mijn verantwoordelijkheid lag bij het opzetten van de front-endarchitectuur voor zowel de webshop als de POS-applicatie. Meteor had ervoor gekozen om Bootstrap te gebruiken, een framework dat ze in eerdere IT-projecten hadden ingezet. Hoewel het even geleden was dat ik nog met Bootstrap had gewerkt, kon ik snel mijn weg vinden en kwaliteitsvol werk leveren. Door de mogelijkheden van Bootstrap efficiënt te benutten, bouwde ik een visueel aantrekkelijke en intuïtieve interface die de verwachtingen van de klant overtrof. Naast het implementeren van concrete componenten, lag mijn focus op het neerzetten van een solide fundering voor de verdere front-endontwikkeling. Dit zorgde ervoor dat het team ook na mijn vertrek kon verderbouwen op een gestructureerde en schaalbare basis. Het project werd opgevolgd in tweewekelijkse sprints volgens de Scrum-methode. De samenwerking met Meteor verliep vlot, en ik kijk met trots terug op de impact die ik heb kunnen maken in een cruciale fase van het project.",
           "technologies": [
             "Bootstrap",
             "Shopware",
@@ -93,11 +76,8 @@
         {
           "company": "Incerta",
           "role": "Front-end developer",
-          "description": "Project voor datamanagement in een custom platform en dashboard met Nuxt 3 en Vuetify.",
-          "responsibilities": [
-            "Samenwerken aan ontwerp en implementatie van datamanagement functionaliteiten",
-            "Optimaliseren en uitbreiden van features"
-          ],
+          "description": "Bij Incerta versterkte ik tijdelijk het team van Vario, een softwarepakket voor veiligheidsbeheer. Als front-end developer hielp ik mee aan de doorontwikkeling van de React-applicatie, met een sterke focus op mobiele optimalisatie. Wat begon als een korte vervanging groeide uit tot een langdurigere samenwerking dankzij mijn toegevoegde waarde binnen het team.",
+          "about": "Vario is een applicatie voor veiligheidsbeheer ontwikkeld door Incerta. Ik werd via Appeel toegevoegd aan het team om tijdelijk een front-end developer met een burn-out te vervangen. Tegelijkertijd miste de andere aanwezige developer nog de nodige ervaring om het project zelfstandig verder te trekken. Het project was opgebouwd in React, een technologie waarmee ik tijdens mijn opleiding had gewerkt maar sindsdien niet veel meer had gebruikt. Toch kon ik de draad snel weer oppikken en me vlot integreren in het team. Mijn belangrijkste bijdrage bestond uit het mobielvriendelijk maken van de applicatie. Incerta had eerder een native app ontwikkeld voor mobiel gebruik, maar was van plan deze geleidelijk uit te faseren ten voordele van één allesomvattende webapplicatie. Mijn werk was dus cruciaal om die transitie mogelijk te maken. We werkten met Scrum en planden iteratief werk via tweewekelijkse sprints. Wat initieel een tijdelijke vervanging zou zijn, mondde uiteindelijk uit in een verlenging van mijn opdracht met enkele maanden, dankzij het vertrouwen dat ik opbouwde binnen het team en de zichtbare impact van mijn werk.",
           "technologies": [
             "Nuxt 3",
             "Vuetify"

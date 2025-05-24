@@ -46,14 +46,7 @@ const close = () => (model.value = false)
                     <AppExperienceRow 
                       v-for="(project, index) in projects"
                       :key="`experience-${index}`"
-                      class="border-b border-black border-opacity-10 last:border-b-0"
-                      :company="project.company"
-                      :position="project.role"
-                      :startDate="project.start"
-                      :endDate="project.end"
-                      :description="project.description"
-                      :technologies="['React', 'Angular', 'Vue.js']"
-                      :projects="project.projects"
+                      :experience="project"
                     />
                   </div>
                 </div>
