@@ -15,9 +15,9 @@ const { data } = await useAsyncData(route.path, () => {
 <template>
   <AppHeader />
 
-  <main class="container mx-auto pt-14 flex flex-col gap-16">
-    <div class="flex justify-between">
-      <h1 class="text-5xl">
+  <main class="container mx-auto pt-14 flex flex-col gap-8 md:gap-16 px-4 md:px-0">
+    <div class="flex flex-col md:flex-row justify-between gap-4">
+      <h1 class="text-2xl md:text-5xl">
         FRONT-END DEVELOPER<br/>
         PASSION & <span class="font-medium underline italic">DRIVE.</span>
       </h1>
@@ -36,7 +36,7 @@ const { data } = await useAsyncData(route.path, () => {
     </div>
 
     <div v-if="data.bio" class="grid grid-cols-3 gap-16">
-      <div class="flex flex-col gap-8">
+      <div class="col-span-full md:col-span-1 flex flex-col gap-4 md:gap-8">
         <span class="font-bold">{{ data?.bio?.name }}</span>
         <p class="text-gray-500 text-sm">{{ data?.bio?.bio }}</p>
         <AppDataTable :data="data?.bio?.meta"/>
@@ -48,7 +48,7 @@ const { data } = await useAsyncData(route.path, () => {
           <span class="inline-block leading-none">Send Message</span>
         </a>
       </div>
-      <div class="col-span-2 flex flex-col gap-8">
+      <div class="col-span-full md:col-span-2 flex flex-col gap-8">
         <div>
           <AppSubHeading :title="data?.educationTitle" />
           <AppEductionRow

@@ -6,7 +6,7 @@ const pages = new Map([
 </script>
 
 <template>
-    <header class="container border-b border-black border-opacity-10 mx-auto flex justify-end py-4">
+    <header class="container border-b border-black border-opacity-10 mx-auto flex justify-end py-4 px-4 md:px-0">
         <ul class="flex gap-4 align-center">
             <li
                 v-for="[label, path] in pages"
