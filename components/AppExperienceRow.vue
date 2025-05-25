@@ -28,8 +28,15 @@ const showMoreInfo = () => {
                 class="font-bold text-xs mt-[2px]"
             >{{ experience?.start }} - {{ experience?.end }}</span>
         </div>
-        <p class="text-gray-500 text-sm my-2">{{ experience?.description }}</p>
-        <div>
+        <p class="text-gray-500 text-sm mt-2">{{ experience?.description }}</p>
+        <div v-if="experience?.technologies" class="flex flex-wrap gap-2 mt-2">
+            <AppBadge 
+                v-for="experience in experience.technologies" 
+                :key="experience" 
+                :label="experience" 
+            />
+        </div>
+        <div v-if="experience?.projects?.length || experience?.about" class="mt-2">
             <button @click="showMoreInfo" class="inline-flex gap-2 align-center text-xs font-bold border border-black py-2 px-4 hover:bg-black hover:text-white transition-colors duration-300 ease-in-out">
                 <Icon name="ph:book-open-bold" size="16"/>
                 <span>Lees meer</span>

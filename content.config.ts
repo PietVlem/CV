@@ -32,7 +32,7 @@ export default defineContentConfig({
                         start: z.string(),
                         end: z.string(),
                         description: z.string(),
-                        responsibilities: z.array(z.string()),
+                        about: z.string(),
                         technologies: z.array(z.string()),
                         projects: z.array(
                             z.object({

@@ -1,7 +1,7 @@
 <script setup>
 const pages = new Map([
     ['NL', '/'],
-    ['EN', '/en'],
+    // ['EN', '/en'],
 ])
 </script>
 
