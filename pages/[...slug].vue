@@ -18,8 +18,8 @@ const { data } = await useAsyncData(route.path, () => {
   <main class="container mx-auto pt-14 flex flex-col gap-8 md:gap-16 px-4 md:px-0">
     <div class="flex flex-col md:flex-row justify-between gap-4">
       <h1 class="text-2xl md:text-5xl">
-        FRONT-END DEVELOPER<br/>
-        PASSION & <span class="font-medium underline italic">DRIVE.</span>
+        WEB DEVELOPER,<br/>
+        MET EEN LIEFDE VOOR <span class="font-medium underline italic">FRONT-END</span>.
       </h1>
       <div class="flex flex-col justify-end">
         <div class="flex gap-4">
