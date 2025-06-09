@@ -1,180 +1,162 @@
 {
-  "lang": "nl",
-  "title": "FRONT-END DEVELOPER, PASSION & DRIVE.",
-  "bio": {
-    "name": "Pieter Vleminckx",
-    "bio": "Front-end developer met ruime ervaring in moderne JavaScript-frameworks zoals React, Vue en Angular. Ik streef ernaar om gestructureerde, kwalitatieve code te schrijven en zoek steeds naar eenvoudige oplossingen voor complexe problemen. Binnen projecten werk ik graag samen met andere developers en denk ik actief mee over technische keuzes en de verdere richting van het product. Ik wil blijven groeien in mijn rol en streef ernaar om op termijn meer verantwoordelijkheid op te nemen binnen een technisch team.",
-    "meta": {
-      "profession": "Front-end developer",
-      "date Of Birth": "15-11-1994",
-      "education": "Bachelor Diploma",
-      "location": "Oost-vlaanderen, België"
+    "lang": "nl",
+    "title": "FRONT-END DEVELOPER, PASSION & DRIVE.",
+    "bio": {
+        "name": "Pieter Vleminckx",
+        "bio": "Front-end developer met ruime ervaring in moderne JavaScript-frameworks zoals React, Vue en Angular. Ik streef ernaar om gestructureerde, kwalitatieve code te schrijven en zoek steeds naar eenvoudige oplossingen voor complexe problemen. Binnen projecten werk ik graag samen met andere developers en denk ik actief mee over technische keuzes en de verdere richting van het product. Ik wil blijven groeien in mijn rol en streef ernaar om op termijn meer verantwoordelijkheid op te nemen binnen een technisch team.",
+        "meta": {
+            "specialisatie": "Front-end developer",
+            "leeftijd": "30",
+            "opleiding": "Bachelor Diploma",
+            "locatie": "Oost-vlaanderen, België"
+        },
+        "email": "pieter.vlem@gmail.com"
     },
-    "email": "pieter.vlem@gmail.com"
-  },
-  "educationTitle": "Opleiding",
-  "education": [
-    {
-      "degree": "Grafische en digitale media (Bachelor Diploma)",
-      "institution": "Artevelde hogeschool",
-      "start": "2015",
-      "end": "2019",
-      "description": "Tijdens mijn bacheloropleiding heb ik een sterke basis gelegd in grafisch ontwerp, digitale media en webontwikkeling. Ik heb geleerd hoe ik visueel aantrekkelijke en gebruiksvriendelijke interfaces kan creëren, evenals de technische vaardigheden die nodig zijn om deze ontwerpen tot leven te brengen."
-    }
-  ],
-  "experienceTitle": "Ervaring",
-  "experience": [
-    {
-      "company": "Appeel",
-      "role": "It consultant",
-      "start": "juli 2022",
-      "end": "nu",
-      "description": "Bij Appeel.io werk ik al drie jaar als front-end developer en lead developer aan uiteenlopende projecten voor diverse klanten. Als consultant heb ik brede ervaring opgebouwd met de drie grote JavaScript-frameworks (Vue, React en Angular), en was ik steeds bereid om nieuwe technologieën en uitdagingen aan te gaan. Naast front-end heb ik ook ervaring opgedaan met back-end development in JavaScript. Mijn rol varieerde van uitvoerende ontwikkeling tot technische leiding binnen teams.",
-      "technologies": [
-        "Vue.js",
-        "React",
-        "Angular",
-        "Node.js"
-      ],
-      "projects": [
+    "educationTitle": "Opleiding",
+    "education": [
         {
-          "company": "Kayak",
-          "role": "Front-end developer",
-          "description": "Binnen het Appeel-team werkte ik mee aan de ontwikkeling van de nieuwe website voor Kayak. Mijn focus lag op het creëren van vloeiende slideranimaties en het verbeteren van de algemene gebruikerservaring. Het project werd gerealiseerd in samenwerking met andere front-end developers en kreeg erkenning op awwwards.com voor zijn design en uitvoering.",
-          "about": "Voor het Kayak job agency werkte ik mee aan de herontwikkeling van hun website binnen het front-end team van Appeel. Ik sloot aan in de laatste fase van het project, met als hoofdverantwoordelijkheid het uitwerken van animaties — in het bijzonder de slideranimaties. Door deze animaties te implementeren, slaagde ik erin de gebruikerservaring aanzienlijk te verbeteren en de interactie op de site visueel aantrekkelijker te maken. Het resultaat was een moderne, dynamische website die Kayak hielp hun jobaanbod op een meer toegankelijke en overtuigende manier te presenteren. De kwaliteit en uitstraling van het eindproduct werden bekroond met een vermelding op awwwards.com, een platform dat uitmuntend webdesign erkent.",
-          "technologies": [
-            "Nuxt 3",
-            "Tailwind CSS",
-            "Bullhorn",
-            "GSAP"
-          ]
-        },
-        {
-          "company": "Konvert",
-          "role": "Lead Front-end developer",
-          "description": "k werd ingeschakeld om de bestaande front-endcode van Konvert te auditen, maar nam al snel een centrale rol op in het verder ontwikkelen en stabiliseren van het project. Wat initieel een korte opdracht zou zijn, groeide uit tot een intensieve vier maanden durende samenwerking waarin ik het project technisch heb geleid en tot een succesvol einde bracht.",
-          "about": "Het project bij Konvert betrof een uitgebreide update van hun website en online portaal. Aanvankelijk was het de bedoeling dat ik één maand zou meewerken om de bestaande code – geschreven door meerdere voorgangers – te evalueren. De technologieën waarmee gewerkt werd, waren onder andere Nuxt 2, Tailwind CSS en Storyblok als CMS, gekoppeld aan een intern ontwikkelde API. mijn aankomst was er nog één front-end developer actief op het project, maar het werd snel duidelijk dat de complexiteit van de codebase en de schaal van het project meer technische maturiteit vereisten. Na het doornemen van de code merkte ik dat er nog heel wat werk aan de winkel was. Ik nam daarom een coachende rol op en begeleidde de andere developer intensief om het project op koers te krijgen.Dankzij het vertrouwen van de klant kreeg ik de vrijheid om zelfstandig keuzes te maken en te focussen op vooruitgang. Uiteindelijk nam ik het project volledig op mij nadat de andere ontwikkelaar – door interne herschikkingen – werd weggenomen van het team. Vier maanden later was het project afgerond en kon deze dan uiteindelijk live gaan.",
-          "technologies": [
-            "Nuxt 2",
-            "Tailwind CSS",
-            "Storyblok CMS",
-            "Storychief"
-          ]
-        },
-        {
-          "company": "Meteor",
-          "role": "Front-end developer",
-          "description": "Voor Meteor werkte ik enkele maanden als enige front-end developer aan de nieuwe webshop en het bestelportaal voor LensOnline. Ik legde de technische basis voor het volledige front-endluik van het project, waarop het verdere team kon voortbouwen. De focus lag op het creëren van een toegankelijke, visueel sterke en gebruiksvriendelijke interface.",
-          "about": "k had het genoegen om via Appeel als consultant samen te werken met Meteor op hun LensOnline-project, een platform voor de verkoop van contactlenzen en een bestelportaal voor opticiens. Het team bestond uit ongeveer tien mensen, waarbij ik de enige front-end developer was. Mijn verantwoordelijkheid lag bij het opzetten van de front-endarchitectuur voor zowel de webshop als de POS-applicatie. Meteor had ervoor gekozen om Bootstrap te gebruiken, een framework dat ze in eerdere IT-projecten hadden ingezet. Hoewel het even geleden was dat ik nog met Bootstrap had gewerkt, kon ik snel mijn weg vinden en kwaliteitsvol werk leveren. Door de mogelijkheden van Bootstrap efficiënt te benutten, bouwde ik een visueel aantrekkelijke en intuïtieve interface die de verwachtingen van de klant overtrof. Naast het implementeren van concrete componenten, lag mijn focus op het neerzetten van een solide fundering voor de verdere front-endontwikkeling. Dit zorgde ervoor dat het team ook na mijn vertrek kon verderbouwen op een gestructureerde en schaalbare basis. Het project werd opgevolgd in tweewekelijkse sprints volgens de Scrum-methode. De samenwerking met Meteor verliep vlot, en ik kijk met trots terug op de impact die ik heb kunnen maken in een cruciale fase van het project.",
-          "technologies": [
-            "Bootstrap",
-            "Shopware",
-            "Webshop",
-            "POS system"
-          ]
-        },
-        {
-          "company": "Incerta",
-          "role": "Front-end developer",
-          "description": "Bij Incerta versterkte ik tijdelijk het team van Vario, een softwarepakket voor veiligheidsbeheer. Als front-end developer hielp ik mee aan de doorontwikkeling van de React-applicatie, met een sterke focus op mobiele optimalisatie. Wat begon als een korte vervanging groeide uit tot een langdurigere samenwerking dankzij mijn toegevoegde waarde binnen het team.",
-          "about": "Vario is een applicatie voor veiligheidsbeheer ontwikkeld door Incerta. Ik werd via Appeel toegevoegd aan het team om tijdelijk een front-end developer met een burn-out te vervangen. Tegelijkertijd miste de andere aanwezige developer nog de nodige ervaring om het project zelfstandig verder te trekken. Het project was opgebouwd in React, een technologie waarmee ik tijdens mijn opleiding had gewerkt maar sindsdien niet veel meer had gebruikt. Toch kon ik de draad snel weer oppikken en me vlot integreren in het team. Mijn belangrijkste bijdrage bestond uit het mobielvriendelijk maken van de applicatie. Incerta had eerder een native app ontwikkeld voor mobiel gebruik, maar was van plan deze geleidelijk uit te faseren ten voordele van één allesomvattende webapplicatie. Mijn werk was dus cruciaal om die transitie mogelijk te maken. We werkten met Scrum en planden iteratief werk via tweewekelijkse sprints. Wat initieel een tijdelijke vervanging zou zijn, mondde uiteindelijk uit in een verlenging van mijn opdracht met enkele maanden, dankzij het vertrouwen dat ik opbouwde binnen het team en de zichtbare impact van mijn werk.",
-          "technologies": [
-            "React"
-          ]
-        },
-        {
-          "company": "NG-data",
-          "role": "Front-end developer",
-          "description": "Bij NGDATA werkte ik als front-end developer aan hun engagement data platform, gebouwd met Nuxt 3 en Tailwind. Ik werd ingehuurd om een specifieke feature – een image upload functionaliteit – te ontwikkelen. Die leverde ik sneller op dan voorzien, waarna ik nog kort meewerkte aan andere verbeteringen binnen het platform.",
-          "about": "NGDATA ontwikkelt een engagement data platform dat klantgedrag verzamelt en analyseert om bedrijven te ondersteunen in hun marketingstrategie. Via Appeel werd ik ingehuurd als front-end developer binnen een klein, gefocust team van drie front-end developers. Mijn initiële opdracht was het ontwikkelen van een nieuwe feature waarmee gebruikers afbeeldingen konden uploaden. De applicatie was gebouwd met Nuxt 3 en Tailwind CSS. Door goede samenwerking binnen het team kon de image upload functionaliteit sneller worden opgeleverd dan oorspronkelijk voorzien. Na de oplevering kreeg ik nog de kans om mee te werken aan bijkomende features en verschillende optimalisaties aan het platform. NGDATA werkte in een Scrumstructuur met tweewekelijkse sprints.Hoewel mijn opdracht aanvankelijk voor een langere periode gepland was, werd die iets eerder afgerond omdat de belangrijkste deliverables reeds klaar waren.",
-          "technologies": [
-            "Nuxt 3",
-            "TailwindCSS",
-            "Vuetify"
-          ]
-        },
-        {
-          "company": "BASF",
-          "role": "Front-end developer",
-          "description": "Bij BASF versterkte ik een team van zeven ontwikkelaars als enige front-end ontwikkelaar. Wat begon als een korte opdracht om designs te slicen, groeide uit tot een diepere betrokkenheid bij de ontwikkeling, herstructurering en verbetering van een reeks Angular-applicaties binnen een NX-monorepo.",
-          "about": "Binnen BASF werd ik aanvankelijk aangetrokken voor een korte opdracht van drie maanden, met als doel het slicen en implementeren van nieuwe designs. Al snel werd mijn opdracht uitgebreid en kreeg ik een grotere rol in de effectieve ontwikkeling van hun front-end applicatie. Ik maakte deel uit van een team van ongeveer zeven developers, waarin ik de enige echte front-end developer was. De applicatie waar we aan werkten was in werkelijkheid een verzameling van nauw verweven Angular-applicaties, ondergebracht in een NX-monorepo. Mijn opdracht richtte zich op het opkuisen van bestaande front-end code, het structureren en moderniseren van de applicaties, en het implementeren van nieuwe functionaliteiten en ontwerpen. Daarbij besteedde ik veel aandacht aan consistentie, herbruikbaarheid van componenten en het verbeteren van de algemene gebruikerservaring. Het team werkte volgens de Scrum-methodologie, met een retro en refinement om de twee weken. Gaandeweg verschoof mijn rol naar een meer ondersteunende bijdrage in de verdere uitbouw van de front-end.",
-          "technologies": [
-            "Angular",
-            "sass"
-          ]
-        },
-        {
-          "company": "Progress",
-          "role": "Front-end developer",
-          "description": "Binnen Appeel werkte ik aan een kleinschalig solo-project voor een zelfstandige kinesist die zich focust op persoonlijke training. Op basis van een aangeleverd ontwerp ontwikkelde ik een lichte en toegankelijke website met Nuxt 3, Tailwind en Nuxt Content.",
-          "about": "Het project was een in-house realisatie bij Appeel voor een eenmanszaak in de kinesitherapie. De klant wilde een eenvoudige maar moderne website om zijn diensten rond persoonlijke training digitaal te presenteren. Het ontwerp werd voorzien door een interne designer van Appeel. Op basis daarvan stond ik zelf in voor de volledige front-end ontwikkeling. De website werd opgebouwd in Nuxt 3 met Tailwind CSS. Omdat er geen budget was voor een extern CMS, koos ik ervoor om Nuxt Content te gebruiken. Op die manier kon de klant toch eenvoudig teksten en content aanpassen zonder diep in de code te moeten duiken. Om de gebruikerservaring te verbeteren en de site wat meer dynamiek te geven, voegde ik subtiele animaties toe. Het was een kleinschalig maar volledig project waarin ik het hele traject – van technische setup tot afwerking – zelfstandig heb opgevolgd.",
-          "technologies": [
-            "Nuxt 3",
-            "Nuxt Content",
-            "TailwindCSS"
-          ]
-        },
-        {
-          "company": "Grafeio",
-          "role": "Lead Front-end developer",
-          "description": "Grafeio is een in-house ontwikkeld SaaS-product binnen Appeel, gericht op seat management voor bedrijven. Als lead developer werkte ik mee aan zowel de front- als back-end in Nuxt 3. Ik hielp bij het bepalen van de productrichting, het begeleiden van het team en het ontwikkelen van de kernfunctionaliteiten.",
-          "about": "Grafeio is ontstaan binnen Appeel als antwoord op de nood aan een intern alternatief voor een te dure, bestaande seat management tool binnen Cronos. Het doel van het platform is bedrijven de mogelijkheid te bieden om een digitale plattegrond van hun kantoorruimte op te stellen, met daarop zitplaatsen, meeting rooms en andere zones. Werknemers kunnen vervolgens een plek reserveren, wat zorgt voor meer inzicht en controle over kantoorbezetting. Als lead developer was ik van bij het begin nauw betrokken bij zowel de technische uitwerking als de strategische beslissingen rond het product. Ik hielp mee in de ontwikkeling van het platform, begeleidde andere developers, en dacht actief mee na over de scope, prioriteiten en langetermijnvisie van het product. Grafeio is opgezet als een fullstack Nuxt 3-applicatie – zowel de front-end als de back-end zijn in Nuxt geschreven. Het is bovendien een multitenant systeem, waarbij elke klant zijn eigen subdomein en database krijgt, met gebruik van CockroachDB als database-oplossing. Het project is uitgegroeid tot een volwaardig product dat vandaag de dag nog steeds actief wordt ontwikkeld en gebruikt wordt door tientallen bedrijven, voornamelijk binnen de Cronos-groep.",
-          "technologies": [
-            "Nuxt 3",
-            "TailwindCSS",
-            "CockroachDB",
-            "Prisma",
-            "Node.js"
-          ]
+            "degree": "Grafische en digitale media (Bachelor Diploma)",
+            "institution": "Artevelde hogeschool",
+            "start": "2015",
+            "end": "2019",
+            "description": "Tijdens mijn bacheloropleiding heb ik een sterke basis gelegd in grafisch ontwerp, digitale media en webontwikkeling. Ik heb geleerd hoe ik visueel aantrekkelijke en gebruiksvriendelijke interfaces kan creëren, evenals de technische vaardigheden die nodig zijn om deze ontwerpen tot leven te brengen."
         }
-      ]
-    },
-    {
-      "company": "The Craft",
-      "role": "Front-end developer",
-      "start": "feb 2020",
-      "end": "juni 2022",
-      "description": "Als front-end web developer bij The Craft werkte ik zelfstandig aan projecten, waarbij ik websites creëerde, aanpaste en aanvulde met Craft CMS. Mijn taken omvatten slicing in HTML, CSS (TailwindCSS) en JavaScript (Vue.js). Deze ervaring gaf mij een sterke basis in web development en CMS-gebaseerde websiteontwikkeling.",
-      "responsibilities": [
-        "Zelfstandig projecten uitvoeren met Craft CMS",
-        "Slicing in HTML, CSS (TailwindCSS) en JavaScript (Vue.js)",
-        "Onderhoud en optimalisatie van websites"
-      ],
-      "technologies": [
-        "Craft CMS",
-        "HTML",
-        "CSS",
-        "TailwindCSS",
-        "JavaScript",
-        "Vue.js"
-      ]
-    },
-    {
-      "company": "Esign",
-      "role": "Stagair Front-end developer",
-      "start": "april 2018",
-      "end": "juni 2018",
-      "description": "Esign was mijn eerste echte werkervaring als web developer. Ik werkte daar als front-end developer en hield me vooral bezig met het aanpassen en aanvullen van bestaande websites, en het ontwikkelen van projecten vanaf slicing Photoshop- of Illustrator-ontwerp naar HTML, CSS en JavaScript tot integratie in Laravel of CodeIgniter.",
-      "technologies": [
-        "HTML",
-        "sass",
-        "JavaScript",
-        "Laravel",
-        "CodeIgniter"
-      ]
-    },
-    {
-      "company": "Net It",
-      "role": "Jobstudent - Front-end developer & helpdesk",
-      "start": "okt 2018",
-      "end": "juni 2019",
-      "description": "In mijn laatste jaar van mijn opleiding grafische en digitale media werkte ik als jobstudent bij Net It. Daar hield ik mij bezig met het ontwerpen en ontwikkelen van een nieuwe WordPress theme voor hun website en meehelpen op de support desk, voornamelijk met custom implementaties van Microsoft Dynamics 365/CRM.",
-      "technologies": [
-        "WordPress",
-        "php",
-        "sass",
-        "Microsoft Dynamics 365/CRM"
-      ]
-    }
-  ]
+    ],
+    "experienceTitle": "Ervaring",
+    "experience": [
+        {
+            "company": "Appeel",
+            "role": "It consultant",
+            "start": "juli 2022",
+            "end": "nu",
+            "description": "Bij Appeel.io werk ik al drie jaar als front-end developer en lead developer aan uiteenlopende projecten voor diverse klanten. Als consultant heb ik brede ervaring opgebouwd met de drie grote JavaScript-frameworks (Vue, React en Angular), en was ik steeds bereid om nieuwe technologieën en uitdagingen aan te gaan. Naast front-end heb ik ook ervaring opgedaan met back-end development in JavaScript. Mijn rol varieerde van uitvoerende ontwikkeling tot technische leiding binnen teams.",
+            "technologies": ["Vue.js", "React", "Angular", "Node.js"],
+            "projects": [
+                {
+                    "company": "Kayak",
+                    "role": "Front-end developer",
+                    "description": "Binnen het Appeel-team werkte ik mee aan de ontwikkeling van de nieuwe website voor Kayak. Mijn focus lag op het creëren van vloeiende slideranimaties en het verbeteren van de algemene gebruikerservaring. Het project werd gerealiseerd in samenwerking met andere front-end developers en kreeg erkenning op awwwards.com voor zijn design en uitvoering.",
+                    "about": "Voor het Kayak job agency werkte ik mee aan de herontwikkeling van hun website binnen het front-end team van Appeel. Ik sloot aan in de laatste fase van het project, met als hoofdverantwoordelijkheid het uitwerken van animaties — in het bijzonder de slideranimaties. Door deze animaties te implementeren, slaagde ik erin de gebruikerservaring aanzienlijk te verbeteren en de interactie op de site visueel aantrekkelijker te maken. Het resultaat was een moderne, dynamische website die Kayak hielp hun jobaanbod op een meer toegankelijke en overtuigende manier te presenteren. De kwaliteit en uitstraling van het eindproduct werden bekroond met een vermelding op awwwards.com, een platform dat uitmuntend webdesign erkent.",
+                    "technologies": [
+                        "Nuxt 3",
+                        "Tailwind CSS",
+                        "Bullhorn",
+                        "GSAP"
+                    ]
+                },
+                {
+                    "company": "Konvert",
+                    "role": "Lead Front-end developer",
+                    "description": "k werd ingeschakeld om de bestaande front-endcode van Konvert te auditen, maar nam al snel een centrale rol op in het verder ontwikkelen en stabiliseren van het project. Wat initieel een korte opdracht zou zijn, groeide uit tot een intensieve vier maanden durende samenwerking waarin ik het project technisch heb geleid en tot een succesvol einde bracht.",
+                    "about": "Het project bij Konvert betrof een uitgebreide update van hun website en online portaal. Aanvankelijk was het de bedoeling dat ik één maand zou meewerken om de bestaande code – geschreven door meerdere voorgangers – te evalueren. De technologieën waarmee gewerkt werd, waren onder andere Nuxt 2, Tailwind CSS en Storyblok als CMS, gekoppeld aan een intern ontwikkelde API. mijn aankomst was er nog één front-end developer actief op het project, maar het werd snel duidelijk dat de complexiteit van de codebase en de schaal van het project meer technische maturiteit vereisten. Na het doornemen van de code merkte ik dat er nog heel wat werk aan de winkel was. Ik nam daarom een coachende rol op en begeleidde de andere developer intensief om het project op koers te krijgen.Dankzij het vertrouwen van de klant kreeg ik de vrijheid om zelfstandig keuzes te maken en te focussen op vooruitgang. Uiteindelijk nam ik het project volledig op mij nadat de andere ontwikkelaar – door interne herschikkingen – werd weggenomen van het team. Vier maanden later was het project afgerond en kon deze dan uiteindelijk live gaan.",
+                    "technologies": [
+                        "Nuxt 2",
+                        "Tailwind CSS",
+                        "Storyblok CMS",
+                        "Storychief"
+                    ]
+                },
+                {
+                    "company": "Meteor",
+                    "role": "Front-end developer",
+                    "description": "Voor Meteor werkte ik enkele maanden als enige front-end developer aan de nieuwe webshop en het bestelportaal voor LensOnline. Ik legde de technische basis voor het volledige front-endluik van het project, waarop het verdere team kon voortbouwen. De focus lag op het creëren van een toegankelijke, visueel sterke en gebruiksvriendelijke interface.",
+                    "about": "k had het genoegen om via Appeel als consultant samen te werken met Meteor op hun LensOnline-project, een platform voor de verkoop van contactlenzen en een bestelportaal voor opticiens. Het team bestond uit ongeveer tien mensen, waarbij ik de enige front-end developer was. Mijn verantwoordelijkheid lag bij het opzetten van de front-endarchitectuur voor zowel de webshop als de POS-applicatie. Meteor had ervoor gekozen om Bootstrap te gebruiken, een framework dat ze in eerdere IT-projecten hadden ingezet. Hoewel het even geleden was dat ik nog met Bootstrap had gewerkt, kon ik snel mijn weg vinden en kwaliteitsvol werk leveren. Door de mogelijkheden van Bootstrap efficiënt te benutten, bouwde ik een visueel aantrekkelijke en intuïtieve interface die de verwachtingen van de klant overtrof. Naast het implementeren van concrete componenten, lag mijn focus op het neerzetten van een solide fundering voor de verdere front-endontwikkeling. Dit zorgde ervoor dat het team ook na mijn vertrek kon verderbouwen op een gestructureerde en schaalbare basis. Het project werd opgevolgd in tweewekelijkse sprints volgens de Scrum-methode. De samenwerking met Meteor verliep vlot, en ik kijk met trots terug op de impact die ik heb kunnen maken in een cruciale fase van het project.",
+                    "technologies": [
+                        "Bootstrap",
+                        "Shopware",
+                        "Webshop",
+                        "POS system"
+                    ]
+                },
+                {
+                    "company": "Incerta",
+                    "role": "Front-end developer",
+                    "description": "Bij Incerta versterkte ik tijdelijk het team van Vario, een softwarepakket voor veiligheidsbeheer. Als front-end developer hielp ik mee aan de doorontwikkeling van de React-applicatie, met een sterke focus op mobiele optimalisatie. Wat begon als een korte vervanging groeide uit tot een langdurigere samenwerking dankzij mijn toegevoegde waarde binnen het team.",
+                    "about": "Vario is een applicatie voor veiligheidsbeheer ontwikkeld door Incerta. Ik werd via Appeel toegevoegd aan het team om tijdelijk een front-end developer met een burn-out te vervangen. Tegelijkertijd miste de andere aanwezige developer nog de nodige ervaring om het project zelfstandig verder te trekken. Het project was opgebouwd in React, een technologie waarmee ik tijdens mijn opleiding had gewerkt maar sindsdien niet veel meer had gebruikt. Toch kon ik de draad snel weer oppikken en me vlot integreren in het team. Mijn belangrijkste bijdrage bestond uit het mobielvriendelijk maken van de applicatie. Incerta had eerder een native app ontwikkeld voor mobiel gebruik, maar was van plan deze geleidelijk uit te faseren ten voordele van één allesomvattende webapplicatie. Mijn werk was dus cruciaal om die transitie mogelijk te maken. We werkten met Scrum en planden iteratief werk via tweewekelijkse sprints. Wat initieel een tijdelijke vervanging zou zijn, mondde uiteindelijk uit in een verlenging van mijn opdracht met enkele maanden, dankzij het vertrouwen dat ik opbouwde binnen het team en de zichtbare impact van mijn werk.",
+                    "technologies": ["React"]
+                },
+                {
+                    "company": "NG-data",
+                    "role": "Front-end developer",
+                    "description": "Bij NGDATA werkte ik als front-end developer aan hun engagement data platform, gebouwd met Nuxt 3 en Tailwind. Ik werd ingehuurd om een specifieke feature – een image upload functionaliteit – te ontwikkelen. Die leverde ik sneller op dan voorzien, waarna ik nog kort meewerkte aan andere verbeteringen binnen het platform.",
+                    "about": "NGDATA ontwikkelt een engagement data platform dat klantgedrag verzamelt en analyseert om bedrijven te ondersteunen in hun marketingstrategie. Via Appeel werd ik ingehuurd als front-end developer binnen een klein, gefocust team van drie front-end developers. Mijn initiële opdracht was het ontwikkelen van een nieuwe feature waarmee gebruikers afbeeldingen konden uploaden. De applicatie was gebouwd met Nuxt 3 en Tailwind CSS. Door goede samenwerking binnen het team kon de image upload functionaliteit sneller worden opgeleverd dan oorspronkelijk voorzien. Na de oplevering kreeg ik nog de kans om mee te werken aan bijkomende features en verschillende optimalisaties aan het platform. NGDATA werkte in een Scrumstructuur met tweewekelijkse sprints.Hoewel mijn opdracht aanvankelijk voor een langere periode gepland was, werd die iets eerder afgerond omdat de belangrijkste deliverables reeds klaar waren.",
+                    "technologies": ["Nuxt 3", "TailwindCSS", "Vuetify"]
+                },
+                {
+                    "company": "BASF",
+                    "role": "Front-end developer",
+                    "description": "Bij BASF versterkte ik een team van zeven ontwikkelaars als enige front-end ontwikkelaar. Wat begon als een korte opdracht om designs te slicen, groeide uit tot een diepere betrokkenheid bij de ontwikkeling, herstructurering en verbetering van een reeks Angular-applicaties binnen een NX-monorepo.",
+                    "about": "Binnen BASF werd ik aanvankelijk aangetrokken voor een korte opdracht van drie maanden, met als doel het slicen en implementeren van nieuwe designs. Al snel werd mijn opdracht uitgebreid en kreeg ik een grotere rol in de effectieve ontwikkeling van hun front-end applicatie. Ik maakte deel uit van een team van ongeveer zeven developers, waarin ik de enige echte front-end developer was. De applicatie waar we aan werkten was in werkelijkheid een verzameling van nauw verweven Angular-applicaties, ondergebracht in een NX-monorepo. Mijn opdracht richtte zich op het opkuisen van bestaande front-end code, het structureren en moderniseren van de applicaties, en het implementeren van nieuwe functionaliteiten en ontwerpen. Daarbij besteedde ik veel aandacht aan consistentie, herbruikbaarheid van componenten en het verbeteren van de algemene gebruikerservaring. Het team werkte volgens de Scrum-methodologie, met een retro en refinement om de twee weken. Gaandeweg verschoof mijn rol naar een meer ondersteunende bijdrage in de verdere uitbouw van de front-end.",
+                    "technologies": ["Angular", "sass"]
+                },
+                {
+                    "company": "Progress",
+                    "role": "Front-end developer",
+                    "description": "Binnen Appeel werkte ik aan een kleinschalig solo-project voor een zelfstandige kinesist die zich focust op persoonlijke training. Op basis van een aangeleverd ontwerp ontwikkelde ik een lichte en toegankelijke website met Nuxt 3, Tailwind en Nuxt Content.",
+                    "about": "Het project was een in-house realisatie bij Appeel voor een eenmanszaak in de kinesitherapie. De klant wilde een eenvoudige maar moderne website om zijn diensten rond persoonlijke training digitaal te presenteren. Het ontwerp werd voorzien door een interne designer van Appeel. Op basis daarvan stond ik zelf in voor de volledige front-end ontwikkeling. De website werd opgebouwd in Nuxt 3 met Tailwind CSS. Omdat er geen budget was voor een extern CMS, koos ik ervoor om Nuxt Content te gebruiken. Op die manier kon de klant toch eenvoudig teksten en content aanpassen zonder diep in de code te moeten duiken. Om de gebruikerservaring te verbeteren en de site wat meer dynamiek te geven, voegde ik subtiele animaties toe. Het was een kleinschalig maar volledig project waarin ik het hele traject – van technische setup tot afwerking – zelfstandig heb opgevolgd.",
+                    "technologies": ["Nuxt 3", "Nuxt Content", "TailwindCSS"]
+                },
+                {
+                    "company": "Grafeio",
+                    "role": "Lead Front-end developer",
+                    "description": "Grafeio is een in-house ontwikkeld SaaS-product binnen Appeel, gericht op seat management voor bedrijven. Als lead developer werkte ik mee aan zowel de front- als back-end in Nuxt 3. Ik hielp bij het bepalen van de productrichting, het begeleiden van het team en het ontwikkelen van de kernfunctionaliteiten.",
+                    "about": "Grafeio is ontstaan binnen Appeel als antwoord op de nood aan een intern alternatief voor een te dure, bestaande seat management tool binnen Cronos. Het doel van het platform is bedrijven de mogelijkheid te bieden om een digitale plattegrond van hun kantoorruimte op te stellen, met daarop zitplaatsen, meeting rooms en andere zones. Werknemers kunnen vervolgens een plek reserveren, wat zorgt voor meer inzicht en controle over kantoorbezetting. Als lead developer was ik van bij het begin nauw betrokken bij zowel de technische uitwerking als de strategische beslissingen rond het product. Ik hielp mee in de ontwikkeling van het platform, begeleidde andere developers, en dacht actief mee na over de scope, prioriteiten en langetermijnvisie van het product. Grafeio is opgezet als een fullstack Nuxt 3-applicatie – zowel de front-end als de back-end zijn in Nuxt geschreven. Het is bovendien een multitenant systeem, waarbij elke klant zijn eigen subdomein en database krijgt, met gebruik van CockroachDB als database-oplossing. Het project is uitgegroeid tot een volwaardig product dat vandaag de dag nog steeds actief wordt ontwikkeld en gebruikt wordt door tientallen bedrijven, voornamelijk binnen de Cronos-groep.",
+                    "technologies": [
+                        "Nuxt 3",
+                        "TailwindCSS",
+                        "CockroachDB",
+                        "Prisma",
+                        "Node.js"
+                    ]
+                }
+            ]
+        },
+        {
+            "company": "The Craft",
+            "role": "Front-end developer",
+            "start": "feb 2020",
+            "end": "juni 2022",
+            "description": "Als front-end web developer bij The Craft werkte ik zelfstandig aan projecten, waarbij ik websites creëerde, aanpaste en aanvulde met Craft CMS. Mijn taken omvatten slicing in HTML, CSS (TailwindCSS) en JavaScript (Vue.js). Deze ervaring gaf mij een sterke basis in web development en CMS-gebaseerde websiteontwikkeling.",
+            "responsibilities": [
+                "Zelfstandig projecten uitvoeren met Craft CMS",
+                "Slicing in HTML, CSS (TailwindCSS) en JavaScript (Vue.js)",
+                "Onderhoud en optimalisatie van websites"
+            ],
+            "technologies": [
+                "Craft CMS",
+                "HTML",
+                "CSS",
+                "TailwindCSS",
+                "JavaScript",
+                "Vue.js"
+            ]
+        },
+        {
+            "company": "Esign",
+            "role": "Stagair Front-end developer",
+            "start": "april 2018",
+            "end": "juni 2018",
+            "description": "Esign was mijn eerste echte werkervaring als web developer. Ik werkte daar als front-end developer en hield me vooral bezig met het aanpassen en aanvullen van bestaande websites, en het ontwikkelen van projecten vanaf slicing Photoshop- of Illustrator-ontwerp naar HTML, CSS en JavaScript tot integratie in Laravel of CodeIgniter.",
+            "technologies": [
+                "HTML",
+                "sass",
+                "JavaScript",
+                "Laravel",
+                "CodeIgniter"
+            ]
+        },
+        {
+            "company": "Net It",
+            "role": "Jobstudent - Front-end developer & helpdesk",
+            "start": "okt 2018",
+            "end": "juni 2019",
+            "description": "In mijn laatste jaar van mijn opleiding grafische en digitale media werkte ik als jobstudent bij Net It. Daar hield ik mij bezig met het ontwerpen en ontwikkelen van een nieuwe WordPress theme voor hun website en meehelpen op de support desk, voornamelijk met custom implementaties van Microsoft Dynamics 365/CRM.",
+            "technologies": [
+                "WordPress",
+                "php",
+                "sass",
+                "Microsoft Dynamics 365/CRM"
+            ]
+        }
+    ]
 }
